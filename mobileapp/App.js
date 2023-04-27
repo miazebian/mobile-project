@@ -7,6 +7,7 @@ import { ContactUs } from './Pages/ContactUs';
 import { AboutUs } from './Pages/AboutUs';
 import { Edit } from './Pages/Edit';
 import Home from './Pages/Home';
+import { products } from './Pages/products';
 import Search from './Pages/Search';
 import { Tabs } from './Pages/Tabs';
 import Wishlist from './Pages/prod/Wishlist';
@@ -29,8 +30,10 @@ export let accounts = [
 AsyncStorage.setItem('account', JSON.stringify(accounts));
 
 
+
+
 export default function App() {
-  
+  {products}
   const Stack=createStackNavigator();
   LogBox.ignoreAllLogs();
   return (

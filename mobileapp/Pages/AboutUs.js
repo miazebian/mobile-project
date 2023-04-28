@@ -15,19 +15,12 @@ export const AboutUs = () => {
       <View style={styles.aboutUsContent}>
         <View style={styles.textContainer}>
           <Text style={styles.text}>
-            Welcome to our online civil marriage website, where we help
-            couples from different countries to legally and officially tie the
-            knot. Our platform is designed to make the process of getting
-            married between different countries as smooth and easy as
-            possible, so you can focus on what really matters: your love and
-            commitment to each other.
+            Welcome to our pet store. We help you find supplies for your pets.
+            We have a wide range of products for your pets.
           </Text>
           <Text style={styles.text}>
-            Our mission is to make civil marriage accessible and inclusive for
-            everyone, regardless of their nationality, gender, or cultural
-            background. We believe that love knows no borders, and we are
-            committed to making it possible for couples to celebrate their
-            love and commitment in a meaningful and legally recognized way.
+            Our mission is to help you find convenient and affordable pet
+            supplies that are trustworthy and reliable.
           </Text>
           <Text style={styles.text}>
             At our core, we are a team of passionate and experienced
@@ -39,7 +32,7 @@ export const AboutUs = () => {
             {"\n"}
             Sincerely,
             {"\n"}
-            The Union Team
+            The Kindy Pets Team
           </Text>
           
         </View>
